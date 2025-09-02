@@ -1,7 +1,14 @@
-var h = parseFloat(prompt("Informe a sua altura \n(ex: 1.78):"))
+var n1, n2, n3, n4, r
 
-if(h >=1.8){
-    alert("O esporte recomendado para você é o Basquete")
+n1 = parseFloat(prompt("Informe a sua primeira nota:"))
+n2 = parseFloat(prompt("Informe a sua segunda nota:"))
+n3 = parseFloat(prompt("Informe a sua terceira nota:"))
+n4 = parseFloat(prompt("Informe a sua quarta nota:"))
+
+r = (n1+n2+n3+n4)/4
+
+if(r>= 7){
+    alert("Você está aprovado")
 }else{
-    alert("O esporte recomendado para você é o Futebol")
+    alert("Você está reprovado")
 }

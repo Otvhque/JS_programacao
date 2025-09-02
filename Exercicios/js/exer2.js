@@ -1,7 +1,7 @@
-var n = parseInt(prompt("Informe um número:\n"))
+var h = parseFloat(prompt("Informe a sua altura \n(ex: 1.78):"))
 
-if(n<=3){
-    alert(n*2)
+if(h >=1.8){
+    alert("O esporte recomendado para você é o Basquete")
 }else{
-    alert(n*3)
+    alert("O esporte recomendado para você é o Futebol")
 }
